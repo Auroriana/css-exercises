@@ -10,6 +10,7 @@ body {
 
 .header {
   display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -55,8 +56,7 @@ ul {
 
 .right-part {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: end;
+  ;
   gap: 16px;
   align-items: center;
 }
