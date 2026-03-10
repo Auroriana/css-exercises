@@ -56,17 +56,12 @@ ul {
 
 .links {
   display: flex;
-  align-items: center;
   gap: 16px;
 }
 
-.left-part {
-  display: flex;
-  gap: 16px;
-}
-
-.right-part {
+.left-part, .right-part {
   display: flex;
   gap: 16px;
   align-items: center;
 }
+
