@@ -50,10 +50,20 @@ ul a {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items:
+  background-color: #eeeeee;
+  padding: 16px;
+}
+
+.left-links {
+  gap: 15px
+}
+
+.right-links {
+  gap: 15px
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
