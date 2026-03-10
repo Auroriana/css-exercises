@@ -18,6 +18,12 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 7px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
 }
 
 input {
@@ -33,6 +39,7 @@ input {
   align-items: center;
   flex-direction: column;
   flex-grow: 1;
+  gap: 16px;
 }
 
 ul {
