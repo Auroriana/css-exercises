@@ -45,8 +45,9 @@ input {
 ul {
   display: flex;
   list-style: none;
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  gap: 15px
 }
 
 ul a {
@@ -59,14 +60,6 @@ ul a {
   justify-content: space-between;
   background-color: #eeeeee;
   padding: 16px;
-}
-
-.left-links {
-  gap: 15px
-}
-
-.right-links {
-  gap: 15px
 }
 
 .header {
